@@ -12,3 +12,6 @@ The fourth cell, which creates the random willingness values and writes them to 
 The fifth cell stores the corresponding values of b from the files in the schedules folder which encode the information for which players must be available for which match (assuming players and matches are indexed top to bottom in bracket position).
 
 The sixth cell runs the models and writes results in the results folder in JSON solution info format; however if running just once it is more convenient to just observe the printed Gurobi output.
+
+# Runtime retrieval
+Runtime data can be read from the results files written by the testing script by running the Runtime Retrieval.ipynb notebook file with the proper parameters and number of test instances updated by the user, and computing an average over all test instances for each model, if this is desired.
